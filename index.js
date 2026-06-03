@@ -75,6 +75,7 @@ try {
 
   if (selected.length === 0) {
     console.log(pc.gray('\nMission aborted. No branches deleted.'));
+    console.log(pc.cyan('\nArchitected by @lakshanmuruganandam\n'));
     process.exit(0);
   }
 
@@ -87,6 +88,7 @@ try {
 
   if (!confirm) {
     console.log(pc.gray('\nMission aborted.'));
+    console.log(pc.cyan('\nArchitected by @lakshanmuruganandam\n'));
     process.exit(0);
   }
 
@@ -108,6 +110,8 @@ try {
       { padding: 1, margin: { top: 1 }, borderStyle: 'round', borderColor: 'green' }
     )
   );
+
+  console.log(pc.cyan('\nArchitected by @lakshanmuruganandam\n'));
 
 } catch (error) {
   console.error(pc.red('\nAn unexpected error occurred:'), error.message);
