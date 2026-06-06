@@ -1,24 +1,41 @@
 {
   "name": "branch-reaper",
   "version": "1.0.1",
-  "description": "",
+  "description": "Hunt down and execute dead, merged git branches in your local repository.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "git",
+    "branch",
+    "clean",
+    "delete",
+    "cli",
+    "developer-tools",
+    "productivity",
+    "reaper"
+  ],
+  "author": "Lakshan Muruganandam <lakshan@example.com>",
+  "license": "MIT",
   "dependencies": {
     "boxen": "^8.0.1",
     "cli-spinners": "^3.4.0",
     "commander": "^15.0.0",
-    "inquirer": "^8.2.6",
+    "inquirer": "^8.2.7",
     "log-update": "^8.0.0",
     "picocolors": "^1.1.1"
   },
   "bin": {
-    "branch-reaper": "./index.js"
+    "branch-reaper": "index.js"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshanmuruganandam/branch-reaper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lakshanmuruganandam/branch-reaper/issues"
+  },
+  "homepage": "https://github.com/lakshanmuruganandam/branch-reaper#readme"
 }
